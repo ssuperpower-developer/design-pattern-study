@@ -26,7 +26,7 @@
 
 | 유진 | 국혜경 | 최지웅 | 임형규 | 
 |:--------:|:-------:| :-------:| :-------:| 
-|<img width="150" src="https://github.com/objet-team/objet-backend/assets/94737714/7a0a7377-9533-43da-814b-3118cbe47a40">| <img width="150" src = "https://github.com/objet-team/objet-backend/assets/94737714/b7fc017c-7c90-4056-b9dd-049b7f994322"> |
+|<img width="150" src="https://github.com/objet-team/objet-backend/assets/94737714/7a0a7377-9533-43da-814b-3118cbe47a40">| <img width="150" src = "https://github.com/objet-team/objet-backend/assets/94737714/b7fc017c-7c90-4056-b9dd-049b7f994322"> | <img width="150" src = "https://github.com/ssuperpower-developer/design-pattern-study/assets/82222245/7e46dd8c-a3f5-4297-bf4c-3c58ad867161">
 | [HI-JIN2](https://github.com/HI-JIN2) | [k0000k](https://github.com/k0000k)  | [jayn2u](https://github.com/jayn2u) | [Gusionling](https://github.com/Gusionling)
 <br>
 
