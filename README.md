@@ -26,10 +26,10 @@
 
 ## 👥 함께 공부하는 사람들
 
-| 유진 | 국혜경 | 최지웅 | 임형규 | 
-|:--------:|:-------:| :-------:| :-------:| 
-|<img width="150" src="https://github.com/objet-team/objet-backend/assets/94737714/7a0a7377-9533-43da-814b-3118cbe47a40">| <img width="150" src = "https://github.com/objet-team/objet-backend/assets/94737714/b7fc017c-7c90-4056-b9dd-049b7f994322"> | <img width="150" src="https://github.com/ssuperpower-developer/design-pattern-study/assets/82222245/19892b21-0c46-4556-83f6-a3150fa0f376">
-| [HI-JIN2](https://github.com/HI-JIN2) | [k0000k](https://github.com/k0000k)  | [jayn2u](https://github.com/jayn2u) | [Gusionling](https://github.com/Gusionling)
+|                                                            유진                                                            |                                                            국혜경                                                             |                                                                    최지웅                                                                     |                     임형규                     |     |
+| :----------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------: | --- |
+| <img width="150" src="https://github.com/objet-team/objet-backend/assets/94737714/7a0a7377-9533-43da-814b-3118cbe47a40"> | <img width="150" src = "https://github.com/objet-team/objet-backend/assets/94737714/b7fc017c-7c90-4056-b9dd-049b7f994322"> | <img width="150" src="https://github.com/ssuperpower-developer/design-pattern-study/assets/82222245/19892b21-0c46-4556-83f6-a3150fa0f376"> |                                             |     |
+|                                          [HI-JIN2](https://github.com/HI-JIN2)                                           |                                            [k0000k](https://github.com/k0000k)                                             |                                                    [jayn2u](https://github.com/jayn2u)                                                     | [Gusionling](https://github.com/Gusionling) |     |
 <br>
 
 ## 📁 세션 진행 기록 모음
