@@ -15,18 +15,20 @@
 - 예시 설명 이후에, 공통 언어(Java)로 예시 코드 혹은 실제 프로젝트에서 해당 패턴을 사용한 사례를 가지고 소개를 해주세요. (공통 언어 필수 + 다른 언어로 구현하는 것은 자유입니다. 단, 너무 너무 소개하고 싶다면 다른 언어를 사용해도 괜찮음. )  
 - 마지막에는 간단하게 해당 디자인 패턴을 조사하면서 어떤 점을 배우고 느끼게 되었는지에 대해서도 설명해주세요.
 
-### 3. 레포지토리 사용 컨벤션
+### 3. 레포지토리 사용 컨벤션
 - Design Pattern 선정은 선착순입니다. Issue에 `[주차] 패턴 이름` 이름으로 등록한 하면 선점~
   -  `[1주차] 빌더 패턴`
 - 브랜치명은 `이름/주차수`로 해주세요! 머지하고 브랜치 지워주기~
   - `jin/week1`
-<br>
+- 커밋 컨벤션 `유형: 작업 사항`
+  - 유형: add/update/delete
+  - `add: builder pattern code`
 
 ## 👥 함께 공부하는 사람들
 
 | 유진 | 국혜경 | 최지웅 | 임형규 | 
 |:--------:|:-------:| :-------:| :-------:| 
-|<img width="150" src="https://github.com/objet-team/objet-backend/assets/94737714/7a0a7377-9533-43da-814b-3118cbe47a40">| <img width="150" src = "https://github.com/objet-team/objet-backend/assets/94737714/b7fc017c-7c90-4056-b9dd-049b7f994322"> |
+|<img width="150" src="https://github.com/objet-team/objet-backend/assets/94737714/7a0a7377-9533-43da-814b-3118cbe47a40">| <img width="150" src = "https://github.com/objet-team/objet-backend/assets/94737714/b7fc017c-7c90-4056-b9dd-049b7f994322"> | <img width="150" src="https://github.com/ssuperpower-developer/design-pattern-study/assets/82222245/19892b21-0c46-4556-83f6-a3150fa0f376">
 | [HI-JIN2](https://github.com/HI-JIN2) | [k0000k](https://github.com/k0000k)  | [jayn2u](https://github.com/jayn2u) | [Gusionling](https://github.com/Gusionling)
 <br>
 
