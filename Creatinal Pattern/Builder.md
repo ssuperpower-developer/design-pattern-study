@@ -37,6 +37,8 @@ Bag bag = Bag.builder()
 
 ### 예시
 - 스프링부트에서의 빌더
+	- 엔티티를 통해서 Dto를 만드는 코드
+	- Dto의 클래스 앞에 @Builder 어노테이션을 붙임
 ```
     public static ShortenedUrlDto from(ShortenedUrl shortenedUrl) {
         return ShortenedUrlDto.builder()
@@ -47,13 +49,11 @@ Bag bag = Bag.builder()
             .build();
     }
 ```
-Dto의 클래스 앞에 @Builder 어노테이션을 붙임
 
 
 
 - 안드로이드에서의 빌더
-
-사실 저는 빌더 이름 보고 그냥 생성만 해주는 구나 싶었습니다..
+	- 사실 저는 빌더 이름 보고 그냥 생성만 해주는 구나 싶었습니다..
 
 ```
     fun createDialogWithMessage(message: String, context: Context) {
