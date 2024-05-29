@@ -127,3 +127,74 @@ class Client {
 - 알고리즘이 많아질수록 관리해야할 객체의 수가 늘어난다는 단점이 있다.
 - 만일 어플리케이션 특성이 알고리즘이 많지 않고 자주 변경되지 않는다면, 새로운 클래스와 인터페이스를 만들어 프로그램을 복잡하게 만들 이유가 없다.
 - 개발자는 적절한 전략을 선택하기 위해 전략 간의 차이점을 파악하고 있어야 한다. (복잡도 ↑)
+
+## Java에서 사용되는 전략 패턴
+
+### comparator
+
+ sort() 정렬 메서드에 사용되는 Comparator 인터페이스이다.
+ 
+```java
+class Scratch {
+    void run () throws IOException {
+        Integer[] arr = {4, 7, 100, 2, 6, 33523, 6345, 423, 342, 324, 652, 4};
+        System.out.println(Arrays.toString(arr) + "\n");
+            
+        Arrays.sort(arr); // 오름차순 정렬
+        System.out.println(Arrays.toString(arr) + "\n");
+            
+        Arrays.sort(arr, Comparator.reverseOrder()); // reverseOrder() : 내림차순 정렬 알고리즘 부여
+        System.out.println(Arrays.toString(arr) + "\n");
+            
+        Arrays.sort(arr, Comparator.naturalOrder()); // naturalOrder() : 오름차순 정렬 알고리즘 부여
+        System.out.println(Arrays.toString(arr) + "\n");
+    }
+        
+    public static void main(String[] args) throws IOException {
+        new Scratch().run();
+    }
+}
+    
+// 출력 결과
+// [4, 7, 100, 2, 6, 33523, 6345, 423, 342, 324, 652, 4]
+//
+// [2, 4, 4, 6, 7, 100, 324, 342, 423, 652, 6345, 33523]
+// 
+// [33523, 6345, 652, 423, 342, 324, 100, 7, 6, 4, 4, 2]
+// 
+// [2, 4, 4, 6, 7, 100, 324, 342, 423, 652, 6345, 33523]
+
+```
+
+### `javax.servlet.http.HttpServlet`의 `service()` 메서드
+
+`HttpServlet` 클래스는 웹 서버에서 HTTP 요청을 처리할 때 사용 하는 클래스이다.
+`service()` 메서드는 HTTP 요청을 받아서 ==적절한 메서드(`doGet()`, `doPost()`, `doPut()`, `doDelete()` 등)로 위임==하게 되고 바로 이 부분이
+
+전략 패턴을 통해 다양한 HTTP 요청 방식에 대해 다른 처리를 가능하게 하는 것 이다. 
+
+```java
+public class MyServlet extends HttpServlet {
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        // GET 요청 처리
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        // POST 요청 처리
+    }
+    
+    @Override
+    protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String method = req.getMethod();
+        if ("GET".equals(method)) {
+            doGet(req, resp);
+        } else if ("POST".equals(method)) {
+            doPost(req, resp);
+        }
+        // 다른 HTTP 메서드도 비슷하게 처리
+    }
+}
+
+```
