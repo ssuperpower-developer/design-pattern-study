@@ -36,12 +36,12 @@
 ### 생성 (Creatinal) 패턴
 | Design Pattern | Java |
 | :--: | :--: |
-| 빌더 (Builder) | |
+| 빌더 (Builder) |O|
 | 추상 팩토리 (Abstract Factory) ||
-| 팩토리 메서드 (Factory Method) | |
+| 팩토리 메서드 (Factory Method) |O|
 | 단일체 (Singleton) ||
-| 모노스테이트 (Monostate)
-| 원형 (Prototype)
+| 모노스테이트 (Monostate)||
+| 원형 (Prototype)||
 
 ### 구조 (Structural) 패턴
 | Design Pattern | Java |
@@ -49,16 +49,16 @@
 | 적응자 (Adapter) ||
 | 장식자 (Decorator) | |
 | 퍼사드 (Facade) | |
-| 복합체 (Composite)
+| 복합체 (Composite)||
 | 프록시 (Proxy) ||
-| 가교 (Bridge)
-| 플라이급 (Flyweight)
+| 가교 (Bridge)||
+| 플라이급 (Flyweight)||
 
 ### 행동 (Behavioral) 패턴
 | Design Pattern | Java |
 | :--: | :--: |
-| 감시자 (Observer) | |
-| 전략 (Strategy) |
+| 감시자 (Observer) |O|
+| 전략 (Strategy) |O|
 | 명령 (Command) | |
 | 해석자 (Interpreter)
 | 반복자 (Iterator)
