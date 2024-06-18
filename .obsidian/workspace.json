@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "55aded7e2564c6ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "badbeb782313eaa1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "446fe01ac77f5d00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Structural Pattern/proxy/proxy 패턴.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f8f9cd0d003a0994",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab74c7808aa8b0f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6ee291e48f1d712",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "23db564e26e6f8bf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a5ebb35d1427bcaa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a05d3d39ffc83f35",
+    "type": "split",
+    "children": [
+      {
+        "id": "eac87a80c12df70d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a3fe8fa25793db6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Structural Pattern/proxy/proxy 패턴.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e17f4664e7db8c10",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Structural Pattern/proxy/proxy 패턴.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "95d6a2221460a700",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e17d12d2fb70f1a9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Structural Pattern/proxy/proxy 패턴.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "a6ee291e48f1d712",
+  "lastOpenFiles": [
+    "Structural Pattern/proxy/img/Pasted image 20240618211018.png",
+    "Structural Pattern/proxy/img/Pasted image 20240618200513.png",
+    "Behavioral Pattern/strategy/Strategy Pattern.md",
+    "Structural Pattern/proxy/proxy 패턴.md",
+    "Structural Pattern/proxy/img",
+    "Structural Pattern/proxy",
+    "Behavioral Pattern/strategy/img/Pasted image 20240528222400.png",
+    "Behavioral Pattern/strategy/img/Pasted image 20240528222251.png",
+    "Behavioral Pattern/strategy/img/Pasted image 20240528204831.png",
+    "Behavioral Pattern/strategy/img/Pasted image 20240528204539.png",
+    "Behavioral Pattern/strategy/img",
+    "Behavioral Pattern/strategy/img/Pasted image 20240528204035.png",
+    "README.md",
+    "Behavioral Pattern/strategy",
+    "Behavioral Pattern/Observer.md"
+  ]
+}
