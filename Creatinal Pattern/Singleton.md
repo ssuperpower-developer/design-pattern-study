@@ -27,7 +27,7 @@ public class Singleton {
     
     // static 메소드로만 객체를 생성하도록
     public static Singleton getInstance() {
-		    // 이미 생성 되어있으면 아무것도 안하고 지나감!
+	// 이미 생성 되어있으면 아무것도 안하고 지나감!
         if (singletonObject == null) {
             singletonObject = new Singleton();
         }
