@@ -39,18 +39,18 @@
 | 빌더 (Builder) |O|
 | 추상 팩토리 (Abstract Factory) ||
 | 팩토리 메서드 (Factory Method) |O|
-| 단일체 (Singleton) ||
+| 단일체 (Singleton) |O|
 | 모노스테이트 (Monostate)||
-| 원형 (Prototype)||
+| 원형 (Prototype)|O|
 
 ### 구조 (Structural) 패턴
 | Design Pattern | Java |
 | :--: | :--: |
-| 적응자 (Adapter) ||
+| 적응자 (Adapter) |O|
 | 장식자 (Decorator) | |
 | 퍼사드 (Facade) | |
 | 복합체 (Composite)||
-| 프록시 (Proxy) ||
+| 프록시 (Proxy) |O|
 | 가교 (Bridge)||
 | 플라이급 (Flyweight)||
 
